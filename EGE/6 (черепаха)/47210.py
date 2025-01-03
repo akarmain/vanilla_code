@@ -12,4 +12,3 @@ for x in range(-10, 15):
         setpos(x * k, y * k)
         dot(2, 'red')
 done()
-
