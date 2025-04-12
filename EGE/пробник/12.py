@@ -21,7 +21,7 @@ def algos(n):
 
 def main():
     ans = []
-    for i in range(3, 10001):
+    for i in range(3, 10000):
         if algos(i) == 42:
             print(i)
             ans.append(i)

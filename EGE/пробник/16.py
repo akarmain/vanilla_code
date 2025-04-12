@@ -1,5 +1,5 @@
 """
-URL:
+URL: https://education.yandex.ru/ege/task/d9162146-83b1-438f-a1f2-680d854581e4
 
 """
 import sys
