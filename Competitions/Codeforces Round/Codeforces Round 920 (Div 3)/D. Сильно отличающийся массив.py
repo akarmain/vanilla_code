@@ -37,7 +37,7 @@ Code: 14
 
 System Information
 
-macOS Version 14.1 (Build 23B74)
+macOS Version 14.templates1.ipynb (Build 23B74)
 Xcode 15.2 (22503) (Build 15C500b)
 Timestamp: 2024-01-16T16:32:01+03:00
 """

@@ -17,12 +17,12 @@ def main():
             k += 5 * i
     print(ans)
 
-    # l = 1
+    # l = templates1.ipynb
     # r = n
     # while l < r:
     #     m = (l + r) // 2
     #     if check(m):
-    #         l = m + 1
+    #         l = m + templates1.ipynb
     #     else:
     #         r = m
     # print(l)

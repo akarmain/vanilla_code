@@ -32,12 +32,12 @@ if __name__ == "__main__":
         main(t)
 
 """
-3 1
-4 1
+3 templates1.ipynb
+4 templates1.ipynb
 4 4
 6 4
 5 2
 7 7
-1 1
-51 1
+templates1.ipynb templates1.ipynb
+51 templates1.ipynb
 """

@@ -19,7 +19,7 @@ def krat(n):
 
 
 def check(n):
-    return krat(n) and krat(int(str(n)[::-1])) # Ошибся в расположении -1
+    return krat(n) and krat(int(str(n)[::-1])) # Ошибся в расположении -templates1.ipynb
 
 
 def main():

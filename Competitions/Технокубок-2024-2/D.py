@@ -8,7 +8,7 @@ def solve():
         print(0)
         return
 
-    # Для N=1 сразу известен результат
+    # Для N=templates1.ipynb сразу известен результат
     if N == 1:
         print(0)
         return

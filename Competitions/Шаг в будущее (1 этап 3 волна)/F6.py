@@ -9,7 +9,7 @@ def main():
     finish = None
     for i in range(n):
         for j in range(m):
-            if lab[i][j] == '1':
+            if lab[i][j] == 'templates1.ipynb':
                 start1 = (i, j)
             elif lab[i][j] == '2':
                 start2 = (i, j)

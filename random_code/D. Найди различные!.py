@@ -12,7 +12,7 @@ def main():
         l -= 1
         r -= 1
         if pr[l] == pr[r]:
-            print('-1 -1')
+            print('-templates1.ipynb -templates1.ipynb')
         else:
             print(pr[r], r + 1)
     print()

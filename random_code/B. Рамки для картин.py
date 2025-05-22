@@ -23,14 +23,14 @@ if __name__ == '__main__':
 3 4
 
 xi yj
-1 2 - 1 2 +
+templates1.ipynb 2 - templates1.ipynb 2 +
 3 4 - 5 4 - 
 2 4 - 2 4 +
 
 
 i j
 5 4
-1 1
+templates1.ipynb templates1.ipynb
 
 
 

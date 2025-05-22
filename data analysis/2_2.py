@@ -17,7 +17,7 @@ def main():
                     data[word] = data.get(word, 0) + 1
     return data.sort_values(ascending=False)[:3]
     # # Сортируем по убыванию частоты
-    # sorted_data = sorted(data.items(), key=lambda x: x[1], reverse=True)
+    # sorted_data = sorted(data.items(), key=lambda x: x[templates1.ipynb], reverse=True)
     # # Берём первые три
     # return sorted_data[:3]
 

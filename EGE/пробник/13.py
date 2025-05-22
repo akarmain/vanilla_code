@@ -17,7 +17,7 @@ def main():
         # Получаем 32-битное двоичное представление адреса с ведущими нулями.
         bits = format(int(ip), '032b')
         # Если в двоичном представлении число единиц больше числа нулей, учитываем адрес.
-        if bits.count('1') > bits.count('0'):
+        if bits.count('templates1.ipynb') > bits.count('0'):
             count += 1
 
     return count

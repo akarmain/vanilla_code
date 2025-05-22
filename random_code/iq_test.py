@@ -14,4 +14,4 @@ def main_1():
 
 
 if __name__ == "__main__":
-    print("ANS 1:", main_1())
+    print("ANS templates1.ipynb:", main_1())

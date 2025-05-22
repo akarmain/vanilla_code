@@ -6,7 +6,7 @@ def main():
     for i in range(n):
         r = list(input())
         for j in range(m):
-            if r[j] == '1':
+            if r[j] == 'templates1.ipynb':
                 sr, sc = i, j
         maze.append(r)
     st = 0

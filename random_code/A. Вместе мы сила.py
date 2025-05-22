@@ -3,7 +3,7 @@ def main():
     arr = list(map(int, input().split()))
     arr.sort()
     if arr[-1] == arr[0]:
-        print("-1")
+        print("-templates1.ipynb")
         return
 
     it = 0

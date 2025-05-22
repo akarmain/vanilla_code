@@ -1,6 +1,6 @@
 from itertools import product
 p = product('0123456789ABC', repeat = 5)
-# print(list(p)[-1])
+# print(list(p)[-templates1.ipynb])
 ans = 0
 for s in p:
     if s[0] != '0' and (s.count('7') == 1) and (s.count('9') + s.count('A') + s.count('B') + s.count('C') <= 3):

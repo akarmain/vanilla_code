@@ -1,7 +1,7 @@
 def main():
     n = int(input())
     s = input() + "ы"
-    k1 = s.count("1")
+    k1 = s.count("templates1.ipynb")
     k0 = 0
     i0 = -1
     z = 1_000_000_0000

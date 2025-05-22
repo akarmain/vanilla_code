@@ -3,7 +3,7 @@ def main() -> None:
     arr = list(map(int, input().split()))
     list_c = []
     for i in range(n):
-        for j in range(0, -n - 1, -1):  # 0, -n - 1, -1
+        for j in range(0, -n - 1, -1):  # 0, -n - templates1.ipynb, -templates1.ipynb
             c = arr[i] - j
             if not c in list_c:
                 print(c, end=' ')

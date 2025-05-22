@@ -15,19 +15,19 @@ def main():
 
 """
 4 5
-1 500
+templates1.ipynb 500
 2 200
 3 1000
 4 300
-1 2 200
+templates1.ipynb 2 200
 2 3 150
 3 4 100
-4 1 300
+4 templates1.ipynb 300
 2 3 50
 
 
 Ответ:
-1 600
+templates1.ipynb 600
 2 200
 31100
 4 100"""

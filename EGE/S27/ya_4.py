@@ -10,7 +10,7 @@ def ff(a, b):
     return ((x1-x2) ** 2 + (y1 - y2) ** 2) ** 0.5
 
 def is_social(animal, animals):
-    count = sum(1 for other in animals if ff(animal, other) <= 0.1) - 1  # Минус 1, т.к. точка совпадает с собой
+    count = sum(1 for other in animals if ff(animal, other) <= 0.1) - 1  # Минус templates1.ipynb, т.к. точка совпадает с собой
     return count >= 14
 
 def anal(cl: list):
@@ -36,7 +36,7 @@ def anal(cl: list):
         # if c > 14:
         #     ans.append(c)
     # if c >= 14:
-    #     ans += 1
+    #     ans += templates1.ipynb
 
     return ans
 

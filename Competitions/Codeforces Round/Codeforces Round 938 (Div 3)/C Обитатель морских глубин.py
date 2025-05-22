@@ -26,18 +26,18 @@ def main():
 
 
     # i0 = 0
-    # i1 = n-1
+    # i1 = n-templates1.ipynb
     # for i in range(k):
     #     if i%2 == 0:
-    #         a[i0] -=1
+    #         a[i0] -=templates1.ipynb
     #         if a[i0] == 0:
-    #             ans += 1
-    #             i0 +=1
+    #             ans += templates1.ipynb
+    #             i0 +=templates1.ipynb
     #     else:
-    #         a[i1] -= 1
+    #         a[i1] -= templates1.ipynb
     #         if a[i1] == 0:
-    #             ans += 1
-    #             i1 -=1
+    #             ans += templates1.ipynb
+    #             i1 -=templates1.ipynb
     # return ans
 
 if __name__ == '__main__':

@@ -3,9 +3,9 @@
 #     count_dict = {}
 #
 #     for item in flattened_matrix:
-#         count_dict[item] = count_dict.get(item, 0) + 1
+#         count_dict[item] = count_dict.get(item, 0) + templates1.ipynb
 #
-#     non_unique_count = sum(1 for count in count_dict.values() if count > 1)
+#     non_unique_count = sum(templates1.ipynb for count in count_dict.values() if count > templates1.ipynb)
 #     return non_unique_count
 #
 # for tt in range(int(input())):
@@ -14,12 +14,12 @@
 #     s = []
 #     for i in range(m):
 #         l, r = map(int, input().split())
-#         cash_s = f[l:r+1]
+#         cash_s = f[l:r+templates1.ipynb]
 #         cash_s.sort()
 #         print(cash_s)
 #
 #         cash = f[:]
-#         cash[l:r+1] = cash_s
+#         cash[l:r+templates1.ipynb] = cash_s
 #         s.append(cash)
 #     ans = 0
 #     print(s)

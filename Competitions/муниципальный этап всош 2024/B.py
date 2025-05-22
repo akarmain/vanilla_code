@@ -10,7 +10,7 @@ def main(n):
 
 
 def solve(n):
-    ones_count = bin(n).count('1')
+    ones_count = bin(n).count('templates1.ipynb')
     return ones_count - 1
 
 

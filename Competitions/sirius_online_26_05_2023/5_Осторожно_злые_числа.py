@@ -7,7 +7,7 @@
 def count_ones(num):
     # Функция для подсчета количества единиц в двоичной записи числа
     binary = bin(num)[2:]  # Получаем двоичное представление числа, отбрасывая первые два символа '0b'
-    return binary.count('1')  # Считаем количество символов '1' в строке
+    return binary.count('templates1.ipynb')  # Считаем количество символов 'templates1.ipynb' в строке
 
 def count_very_evil_numbers(n):
     count = 0  # Счетчик очень злых чисел

@@ -10,8 +10,8 @@ def main():
 
     # s = 0
     # ans.sort()
-    # for i in range(n-1):
-    #     s += (ans[i + 1] - ans[i]) * (n - i)
+    # for i in range(n-templates1.ipynb):
+    #     s += (ans[i + templates1.ipynb] - ans[i]) * (n - i)
     #
     # return s
 

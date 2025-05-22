@@ -11,6 +11,6 @@ for _ in range(int(input())):
         else:
             r[i - 1] = chr(c)
     if t:
-        print('1' + '0' * len(s))
+        print('templates1.ipynb' + '0' * len(s))
     else:
         print(''.join(r[:k]) + '0' * (len(s) - k))

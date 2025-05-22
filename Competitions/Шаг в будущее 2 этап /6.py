@@ -49,7 +49,7 @@ for i in range(N):
 # Находим путь от основания до вершины
 path = find_path(graph, base, top)
 if path:
-    # Преобразуем индексы (0-based) в номера блоков (1-based)
+    # Преобразуем индексы (0-based) в номера блоков (templates1.ipynb-based)
     print(' '.join(str(idx + 1) for idx in path))
 else:
     print("No solution found")

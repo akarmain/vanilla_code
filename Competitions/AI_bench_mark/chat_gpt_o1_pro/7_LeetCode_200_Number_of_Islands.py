@@ -10,7 +10,7 @@ class Solution(object):
         m, n = len(grid), len(grid[0])
         island_count = 0
 
-        # DFS function to mark the connected '1's as visited
+        # DFS function to mark the connected 'templates1.ipynb's as visited
         def dfs(i, j):
             # Base case: if out of bounds or water ('0'), return
             if i < 0 or j < 0 or i >= m or j >= n or grid[i][j] == '0':
@@ -26,7 +26,7 @@ class Solution(object):
         # Iterate through the grid
         for i in range(m):
             for j in range(n):
-                if grid[i][j] == '1':  # Found a new island
+                if grid[i][j] == 'templates1.ipynb':  # Found a new island
                     island_count += 1
                     dfs(i, j)  # Explore the entire island
 

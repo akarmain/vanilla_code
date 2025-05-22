@@ -21,7 +21,7 @@ def generate_arrays(n):
 def main():
     global n, k
     s = list(map(lambda x: 0 if x == ")" else 1, list(input())))
-    # if s == [1, 0]:
+    # if s == [templates1.ipynb, 0]:
     #     print("NO")
     #     return
     n = len(s)
@@ -34,17 +34,17 @@ def main():
             break
     else:
         print("NO")
-    # t = [1]
+    # t = [templates1.ipynb]
     # print("YES")
-    # for i in range(n * 2 - 1):
-    #     new_t = t + [1]
-    #     print(new_t.count(1), new_t.count(0))
-    #     if test(new_t, s) or (new_t.count(1) > new_t.count(0)):
+    # for i in range(n * 2 - templates1.ipynb):
+    #     new_t = t + [templates1.ipynb]
+    #     print(new_t.count(templates1.ipynb), new_t.count(0))
+    #     if test(new_t, s) or (new_t.count(templates1.ipynb) > new_t.count(0)):
     #         t.append(0)
     #     else:
-    #         t.append(1)
+    #         t.append(templates1.ipynb)
     # for i in t:
-    #     if i == 1:
+    #     if i == templates1.ipynb:
     #         print("(", end="")
     #     else:
     #         print(")", end="")
@@ -57,8 +57,8 @@ if __name__ == "__main__":
 
 """
 2
-1
-1
+templates1.ipynb
+templates1.ipynb
 0
 2
 500000000
