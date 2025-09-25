@@ -8,23 +8,26 @@ URL: https://education.yandex.ru/ege/task/f57767af-1621-4f30-a569-c0067917fade
 Делители в строке таблицы также должны следовать в порядке возрастания.
 """
 
+
 def algos(n):
     d = set()
-    for i in range(2, int(n**0.5)+1):
-        if n%i==0:
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
             d.add(i)
-            d.add(n//i)
+            d.add(n // i)
     return sorted(d)
+
 
 def main():
     ans = []
     for i in range(174457, 174505 + 1):
         d = algos(i)
         if len(d) == 2:
-            ans.append([d[0]*d[1], d[0], d[1]])
+            ans.append([d[0] * d[1], d[0], d[1]])
     ans.sort(key=lambda x: x[0])
     for i in ans:
         print(i[1], i[2])
+
 
 if __name__ == "__main__":
     print("ANS:", main())

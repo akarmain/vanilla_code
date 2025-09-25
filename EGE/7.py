@@ -76,7 +76,40 @@ def task_kompege_6014():
 def task_kompege_20364():
     ans = ((1920 * 1080 * 16) +
            (3600 * 16))
-    return int((ans * 300*2) / (1024 * 1014 * 8))
+    return int((ans * 300 * 2) / (1024 * 1014 * 8))
+
+
+def task_kompege_22475():
+    v1 = 3840 * 2160 * 20 * 60 * 30
+    m1 = 2 * 4800 * 4 * 30
+    f1 = (v1 + m1) * 3
+
+    v2 = 1920 * 1080 * 16 * 60 * 30
+    m2 = 2 * 3600 * 3 * 30
+    f2 = (v2 + m2) * 3
+
+    return int((f1 - f2) / 2 ** 33)
+
+
+def task_kompege_4616():
+    i = 13
+    l = 294
+    one_b = 478
+    return int((one_b * 131_072) / 2 ** 10)
+
+
+def task_kompege_10713():
+    i = 4
+    l = 7
+    one_b = 4
+    return int((one_b * 500))
+
+
+def task_kompege_4699():
+    i = 11
+    l = 250
+    one_b = 344
+    return int((one_b * 65_536) / 1024)
 
 
 if __name__ == "__main__":
@@ -85,7 +118,11 @@ if __name__ == "__main__":
     # print("ANS_task_yandex_1:", task_yandex_1())
     # print("ANS_task_yandex_1:", task_yandex_2())
     # print("ANS_task_kompege_10709", task_kompege_10709())
-    print("ANS_task_kompege_8944", task_kompege_8944())
-    print("ANS_task_kompege_8465", task_kompege_8465())
-    print("ANS_task_kompege_6014", task_kompege_6014())
-    print("ANS_task_kompege_20364", task_kompege_20364())
+    # print("ANS_task_kompege_8944", task_kompege_8944())
+    # print("ANS_task_kompege_8465", task_kompege_8465())
+    # print("ANS_task_kompege_6014", task_kompege_6014())
+    # print("ANS_task_kompege_20364", task_kompege_20364())
+    # print("task_kompege_22475", task_kompege_22475())
+    # print("task_kompege_4616", task_kompege_4616())
+    print("task_kompege_10713", task_kompege_10713())
+    print("task_kompege_4699", task_kompege_4699())

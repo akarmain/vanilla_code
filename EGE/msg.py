@@ -42,7 +42,7 @@ def send_telegram_message(message):
     """
     url = f"https://api.telegram.org/bot5782848850:AAEAVe6Z7khw_PiDXX6PpjV_s5LIGQ12hnw/sendMessage"
     params = {
-        'chat_id': "1619901051",
+        'chat_id': "",
         'text': message
     }
 
@@ -64,4 +64,3 @@ if __name__ == '__main__':
 
 # if __name__ == '__main__':
 #     main()
-
