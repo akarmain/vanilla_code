@@ -246,4 +246,5 @@ EGE/.DS_Store
 .DS_Store
 Competitions/.DS_Store
 del_me.py
-
+training/nuxt_tailwind/node_modules
+random_code/.DS_Store
