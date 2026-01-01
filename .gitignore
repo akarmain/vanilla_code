@@ -248,3 +248,4 @@ Competitions/.DS_Store
 del_me.py
 training/nuxt_tailwind/node_modules
 random_code/.DS_Store
+training/nuxt_tailwind/.nuxt
