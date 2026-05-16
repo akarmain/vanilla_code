@@ -1,0 +1,66 @@
+- generic [ref=e5]:
+  - generic [ref=e8]:
+    - banner [ref=e9]:
+      - generic [ref=e14]:
+        - generic: skills
+    - main [ref=e15]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic:
+            - heading "Python icon Python" [level=2] [ref=e22]:
+              - generic:
+                - img "Python icon"
+                - text: Python
+            - generic [ref=e23]:
+              - text: Мой первый и самый любимый язык программирования. Начал изучать его в 2019 году на специальных курсах и за 5 лет вышел на продвинутый уровень.
+              - separator [ref=e24]
+              - button "Технологии, которые использую в работе" [ref=e28] [cursor=pointer]:
+                - generic [ref=e29]:
+                  - generic [ref=e31]: Технологии, которые использую в работе
+                  - img [ref=e32]:
+                    - img [ref=e34]
+        - generic [ref=e36]:
+          - generic:
+            - heading "VUE icon Web" [level=2] [ref=e39]:
+              - generic:
+                - img "VUE icon" [ref=e40]
+                - text: Web
+            - generic [ref=e41]:
+              - text: В 2022 году прошел курсы от МШП, где освоил HTML, CSS и JavaScript, а также серверную разработку на Node.js. В настоящее время интересуюсь созданием Telegram Mini Apps — мини-приложений внутри Telegram, которые расширяют функциональность обычных ботов.
+              - separator [ref=e42]
+              - button "Технологии, которые использую в работе" [ref=e46] [cursor=pointer]:
+                - generic [ref=e47]:
+                  - generic [ref=e49]: Технологии, которые использую в работе
+                  - img [ref=e50]:
+                    - img [ref=e52]
+        - generic [ref=e54]:
+          - generic:
+            - heading "VUE icon Tools" [level=2] [ref=e57]:
+              - generic:
+                - img "VUE icon" [ref=e58]
+                - text: Tools
+            - generic [ref=e59]:
+              - text: "Инструменты, необходимые для работы вне зависимости от языка программирования:"
+              - separator [ref=e60]
+              - button "Технологии, которые использую в работе" [ref=e64] [cursor=pointer]:
+                - generic [ref=e65]:
+                  - generic [ref=e67]: Технологии, которые использую в работе
+                  - img [ref=e68]:
+                    - img [ref=e70]
+  - tablist [ref=e72]:
+    - generic:
+      - tab "~/index" [ref=e74] [cursor=pointer]:
+        - generic [ref=e75]:
+          - generic:
+            - img [ref=e76]
+            - generic [ref=e78]: ~/index
+      - tab "~/projects" [ref=e80] [cursor=pointer]:
+        - generic [ref=e81]:
+          - generic:
+            - img [ref=e82]
+            - generic [ref=e84]: ~/projects
+      - tab "~/skills" [selected] [ref=e86] [cursor=pointer]:
+        - generic [ref=e87]:
+          - generic:
+            - img [ref=e88]
+            - generic [ref=e90]: ~/skills

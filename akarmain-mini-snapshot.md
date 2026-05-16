@@ -1,0 +1,59 @@
+- generic [ref=e5]:
+  - generic [ref=e8]:
+    - banner [ref=e9]:
+      - generic [ref=e11]:
+        - button [ref=e14] [cursor=pointer]
+        - generic [ref=e17]:
+          - generic: Mini
+    - main [ref=e18]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic:
+            - heading "Selenium eduApp парсер GitHub" [level=2] [ref=e25]:
+              - generic:
+                - text: Selenium eduApp парсер
+                - link "GitHub" [ref=e26] [cursor=pointer]:
+                  - /url: https://github.com/akarmain/Save_Informatics-EduApp_Code
+            - generic [ref=e32]:
+              - text: Парсер для сохранения скриптов с
+              - link "сайта" [ref=e33] [cursor=pointer]:
+                - /url: https://informatics.ru/
+              - text: "школы программирования. Он выполняет следующие функции:"
+              - text: 1. Входит в аккаунт, сохраняя куки для последующих запросов.
+              - text: 2. Извлекает и сохраняет код уроков в структурированном виде. Каждый урок сохраняется в отдельной папке, название которой состоит из даты проведения урока и его темы.
+              - text: 3. В каждой папке создаются файлы с кодом, названия которых соответствуют названиям заданий.
+        - generic [ref=e34]:
+          - generic:
+            - heading "My school Site GitHub" [level=2] [ref=e36]:
+              - generic:
+                - text: My school
+                - link "Site" [ref=e37] [cursor=pointer]:
+                  - /url: https://school.akarmain.ru/
+                - link "GitHub" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/akarmain/my_school
+            - generic [ref=e50]:
+              - text: Сайт для решения задач по информатике.
+              - text: Для изучения JavaScript я решил выполнять все задания по информатике на этом языке. А чтобы преподавателю было удобно проверять мои работы, я создал простой интерфейс сайта на
+              - link "Node.js" [ref=e51] [cursor=pointer]:
+                - /url: https://nodejs.org
+              - text: и
+              - link "EJS" [ref=e52] [cursor=pointer]:
+                - /url: https://ejs.co/
+              - text: ", с которыми уже имел опыт работы"
+  - tablist [ref=e53]:
+    - generic:
+      - tab "~/index" [ref=e55] [cursor=pointer]:
+        - generic [ref=e56]:
+          - generic:
+            - img [ref=e57]
+            - generic [ref=e59]: ~/index
+      - tab "~/projects" [selected] [ref=e61] [cursor=pointer]:
+        - generic [ref=e62]:
+          - generic:
+            - img [ref=e63]
+            - generic [ref=e65]: ~/projects
+      - tab "~/skills" [ref=e67] [cursor=pointer]:
+        - generic [ref=e68]:
+          - generic:
+            - img [ref=e69]
+            - generic [ref=e71]: ~/skills

@@ -1,0 +1,80 @@
+- generic [ref=e5]:
+  - generic [ref=e8]:
+    - banner [ref=e9]:
+      - generic [ref=e11]:
+        - button [ref=e14] [cursor=pointer]
+        - generic [ref=e17]:
+          - generic: Edu Helper AI
+    - main [ref=e18]:
+      - generic [ref=e23]:
+        - generic:
+          - generic [ref=e24]:
+            - generic:
+              - heading "Edu Helper AI" [level=2] [ref=e25]:
+                - generic: Edu Helper AI
+              - heading "Bot GitHub" [level=3] [ref=e26]:
+                - generic
+          - generic [ref=e39]:
+            - text: Это телеграм-бот, созданный для помощи в учебе. Этот бот использует ChatGPT для ответов на вопросы по коду, создания конспектов и объяснения тем, с учетом контекста диалога. Кроме того, бот помогает организовать задачи с различными параметрами (название, описание, сложность, крайний срок выполнения) и возможностью добавления тегов. Чтобы ученикам было проще разобраться в функционале бота, мы создали инструкцию в формате TMA.
+            - separator [ref=e40]
+            - text: Этот проект был разработан в рамках "
+            - link "Хакатона" [ref=e41] [cursor=pointer]:
+              - /url: https://hackathon.informatics.ru/
+            - text: по IT-технологиям от МШП в 2024 году". (
+            - link "pdf сайта" [ref=e42] [cursor=pointer]:
+              - /url: /assets/hackathon_info_2024-CEGgm_mR.pdf
+            - text: )
+            - text: Будучи тимлидом, в мои задачи входило написании кода для бота, с чем я успешно справился за 8 часов
+            - heading "Функционал:" [level=1] [ref=e43]
+            - list [ref=e44]:
+              - listitem [ref=e45]: Создание / просмотр / удаление задач
+              - listitem [ref=e46]: Создание тегов
+              - listitem [ref=e47]: Прикрепление тегов к задачам
+              - listitem [ref=e48]: Инструкция в формате TMA
+            - heading "Стек технологий" [level=1] [ref=e49]
+            - list [ref=e50]:
+              - listitem [ref=e51]:
+                - link "Aiogram" [ref=e52] [cursor=pointer]:
+                  - /url: https://aiogram.dev/
+                - text: "- фреймворк для"
+                - link "Telegram Bot API" [ref=e53] [cursor=pointer]:
+                  - /url: https://core.telegram.org/bots/api
+              - listitem [ref=e54]:
+                - link "SQLite" [ref=e55] [cursor=pointer]:
+                  - /url: https://www.sqlite.org/
+                - text: – для хранения данных
+              - listitem [ref=e56]:
+                - link "ChatGPT" [ref=e57] [cursor=pointer]:
+                  - /url: https://openai.com/chatgpt/
+                - text: – для анализа вопросов
+              - listitem [ref=e58]:
+                - link "Loguru" [ref=e59] [cursor=pointer]:
+                  - /url: https://loguru.readthedocs.io/
+                - text: – для логирования ошибок
+            - heading "Инструкция в формате TMA написана на React с использованием @tma.js SDK" [level=2] [ref=e60]:
+              - text: Инструкция в формате TMA написана на React с использованием
+              - link "@tma.js SDK" [ref=e61] [cursor=pointer]:
+                - /url: https://docs.telegram-mini-apps.com/
+            - separator [ref=e62]
+            - paragraph [ref=e63]:
+              - text: "PS: Этот проект оказался лучшим и мы получили"
+              - link "дипломы" [ref=e64] [cursor=pointer]:
+                - /url: /assets/diploma_Karmaev_compressed-DjqWuW4F.pdf
+              - text: и подарочные сертификаты :)
+  - tablist [ref=e65]:
+    - generic:
+      - tab "~/index" [ref=e67] [cursor=pointer]:
+        - generic [ref=e68]:
+          - generic:
+            - img [ref=e69]
+            - generic [ref=e71]: ~/index
+      - tab "~/projects" [selected] [ref=e73] [cursor=pointer]:
+        - generic [ref=e74]:
+          - generic:
+            - img [ref=e75]
+            - generic [ref=e77]: ~/projects
+      - tab "~/skills" [ref=e79] [cursor=pointer]:
+        - generic [ref=e80]:
+          - generic:
+            - img [ref=e81]
+            - generic [ref=e83]: ~/skills

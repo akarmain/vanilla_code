@@ -1,0 +1,102 @@
+- generic [ref=e5]:
+  - generic [ref=e8]:
+    - banner [ref=e9]:
+      - generic [ref=e11]:
+        - button [ref=e14] [cursor=pointer]
+        - generic [ref=e17]:
+          - generic: GPT gift
+    - main [ref=e18]:
+      - generic [ref=e23]:
+        - generic:
+          - generic [ref=e24]:
+            - generic:
+              - heading "Сайт для поиска подарков с AI" [level=2] [ref=e25]:
+                - generic: Сайт для поиска подарков с AI
+              - heading "site gitHub channel" [level=3] [ref=e26]:
+                - generic
+              - iframe [ref=e47]:
+                - generic [active] [ref=f3e1]:
+                  - generic "Проигрыватель YouTube" [ref=f3e3]
+                  - generic [ref=f3e5]:
+                    - generic:
+                      - generic:
+                        - button "Воспроизвести видео" [ref=f3e10] [cursor=pointer]:
+                          - generic [ref=f3e13]:
+                            - img
+                        - button "Скрыть панель управления" [ref=f3e14] [cursor=pointer]
+                        - generic [ref=f3e16]:
+                          - generic [ref=f3e21]:
+                            - generic [ref=f3e22]:
+                              - link "GPT-gift промо-ролик" [ref=f3e23] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=6H1cFuo0klc
+                              - link "Андрей Кармаев" [ref=f3e24] [cursor=pointer]:
+                                - /url: /channel/UCZYb4T0xkADmqZaTuo1RkhQ
+                                - generic [ref=f3e25]: Андрей Кармаев
+                            - generic [ref=f3e26]:
+                              - button "thumbnail-image" [ref=f3e27] [cursor=pointer]:
+                                - img "thumbnail-image" [ref=f3e28]
+                              - generic [ref=f3e30]:
+                                - generic: Андрей Кармаев
+                                - generic: Нет подписчиков
+                          - generic [ref=f3e31]:
+                            - button "Поделиться" [ref=f3e34] [cursor=pointer]:
+                              - generic [ref=f3e38]:
+                                - img
+                            - link "Посмотреть на YouTube" [ref=f3e45] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=6H1cFuo0klc
+                              - generic [ref=f3e48]:
+                                - text: Смотреть на
+                                - img [ref=f3e50]:
+                                  - generic [ref=f3e52]:
+                                    - img
+          - generic [ref=e48]:
+            - text: С помощью сайта вы создаете анкету с вопросами, отправляете её знакомым, и после их прохождения опроса получаете список подарков, сформированный моделью ChatGPT-3.5.
+            - separator [ref=e49]
+            - text: Это был учебный проект, целью которого было создание опросника на Django. Но я предложил добавить ИИ...
+            - text: Первоначальное название было Simple Voting Red.
+            - text: В рамках проекта я выполнял роль тимлида. Моя задача заключалась в распределении работы среди участников команды, проверке, улучшении и интеграции всех компонентов. Впоследствии я занимался написанием фронтенда сайта
+            - heading "Функционал:" [level=1] [ref=e50]
+            - list [ref=e51]:
+              - listitem [ref=e52]: "При создании и редактировании анкеты можно добавить вопросы следующих типов: одиночный выбор, множественный выбор, открытый вопрос."
+              - listitem [ref=e53]: Можно поделиться анкетой, а также изменить или удалить ее.
+              - listitem [ref=e54]: Подборка более чем из 100 подарков для 10 праздников.
+              - listitem [ref=e55]: Регистрация и вход на сайт.
+              - listitem [ref=e56]: "На сайте есть 5 страниц:"
+              - list [ref=e57]:
+                - listitem [ref=e58]: Главная страница
+                - listitem [ref=e59]: Все подарки
+                - listitem [ref=e60]: Создание/редактирование опроса
+                - listitem [ref=e61]: Прохождение опроса
+                - listitem [ref=e62]: Просмотр ответов на вопросы
+            - heading "Стек технологий" [level=1] [ref=e63]
+            - list [ref=e64]:
+              - listitem [ref=e65]:
+                - link "Django" [ref=e66] [cursor=pointer]:
+                  - /url: https://pypi.org/project/Django/
+                - text: – фреймворк для написания бэкенда сайта
+              - listitem [ref=e67]:
+                - link "Bootstrap" [ref=e68] [cursor=pointer]:
+                  - /url: https://getbootstrap.com/
+                - text: – для готовых стилей
+              - listitem [ref=e69]:
+                - link "ChatGPT" [ref=e70] [cursor=pointer]:
+                  - /url: https://openai.com/chatgpt/
+                - text: – для анализа опросов
+            - paragraph [ref=e71]: "PS: За проект мы все получили 5+ :)"
+  - tablist [ref=e72]:
+    - generic:
+      - tab "~/index" [ref=e74] [cursor=pointer]:
+        - generic [ref=e75]:
+          - generic:
+            - img [ref=e76]
+            - generic [ref=e78]: ~/index
+      - tab "~/projects" [selected] [ref=e80] [cursor=pointer]:
+        - generic [ref=e81]:
+          - generic:
+            - img [ref=e82]
+            - generic [ref=e84]: ~/projects
+      - tab "~/skills" [ref=e86] [cursor=pointer]:
+        - generic [ref=e87]:
+          - generic:
+            - img [ref=e88]
+            - generic [ref=e90]: ~/skills

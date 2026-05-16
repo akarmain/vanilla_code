@@ -1,0 +1,166 @@
+- generic [ref=e5]:
+  - generic [ref=e8]:
+    - banner [ref=e9]:
+      - generic [ref=e11]:
+        - button [ref=e14] [cursor=pointer]
+        - generic [ref=e17]:
+          - generic: QR bot
+    - main [ref=e18]:
+      - generic [ref=e23]:
+        - generic:
+          - generic [ref=e24]:
+            - generic:
+              - heading "Telegram-бот для работы с QR-кодами" [level=2] [ref=e25]:
+                - generic: Telegram-бот для работы с QR-кодами
+              - heading "bot tg site YouTube Instagram TikTok BotStat GitHub site" [level=3] [ref=e26]:
+                - generic
+              - iframe [ref=e74]:
+                - generic [active] [ref=f1e1]:
+                  - generic "Проигрыватель YouTube" [ref=f1e3]
+                  - generic [ref=f1e5]:
+                    - generic:
+                      - generic:
+                        - button "Воспроизвести видео" [ref=f1e10] [cursor=pointer]:
+                          - generic [ref=f1e54]:
+                            - img
+                        - button "Скрыть панель управления" [ref=f1e12] [cursor=pointer]
+                        - generic [ref=f1e14]:
+                          - generic [ref=f1e19]:
+                            - generic [ref=f1e20]:
+                              - 'link "HOW CREATE SUCHQR CODES? #qr #code #telegram #shorts" [ref=f1e21] [cursor=pointer]':
+                                - /url: https://www.youtube.com/watch?v=A-P5qvctews
+                              - link "Qr code" [ref=f1e22] [cursor=pointer]:
+                                - /url: /channel/UCo-r4nuMq_uhtw8jCuGt0hA
+                                - generic [ref=f1e23]: Qr code
+                            - generic [ref=f1e24]:
+                              - button "thumbnail-image" [ref=f1e55] [cursor=pointer]:
+                                - img "thumbnail-image" [ref=f1e56]
+                              - generic [ref=f1e27]:
+                                - generic: Qr code
+                                - generic: 29 подписчиков
+                          - generic [ref=f1e28]:
+                            - button "Поделиться" [ref=f1e31] [cursor=pointer]:
+                              - generic [ref=f1e35]:
+                                - img
+                            - link "Посмотреть на YouTube" [ref=f1e42] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=A-P5qvctews
+                              - generic [ref=f1e45]:
+                                - text: Смотреть на
+                                - img [ref=f1e47]:
+                                  - generic [ref=f1e49]:
+                                    - img
+          - generic [ref=e75]:
+            - text: Этот бот предназначен для работы с QR-кодами. Он генерирует цветные QR-коды с изображениями и Tetris QR-коды. Бот может создавать QR-коды по шаблонам для телефонных номеров, ссылок, координат и электронных писем. Бот умеет сканировать QR-коды как по отправленной фотографии, так и через камеру. Пользование бесплатное, но есть премиум-функционал, который можно оплатить картой “Мир” или криптовалютой. Бот полезен маркетологам, дизайнерам, типографам и всем, кто нуждается в быстром создании QR-кодов без лишних хлопот.
+            - text: Бот полезен маркетологам, дизайнерам, типографам и всем, кто нуждается в быстром создании QR-кодов без лишних хлопот.
+            - text: Все, что связано с ботом, было придумано и разработано исключительно мной, на что у меня имеется
+            - link "патент" [ref=e76] [cursor=pointer]:
+              - /url: https://fips.ru/EGD/071d29ae-f144-4d56-b3d2-edcd5fb38d70
+            - text: .
+            - separator [ref=e77]
+            - heading "Все возможности" [level=1] [ref=e78]
+            - list [ref=e79]:
+              - listitem [ref=e80]: "Бот поддерживает 3 языка: русский, английский, немецкий"
+              - listitem [ref=e81]: Команда /help отправляет подробную инструкцию по использованию внутри бота.
+              - listitem [ref=e82]: Команда /report передаст сообщений администраторам через бота.
+              - listitem [ref=e83]: Можно копировать текст под QR-кодом по нажатию.
+              - listitem [ref=e84]: Для удобства ссылки выделяются в отдельные кнопки под QR-кодом.
+              - listitem [ref=e85]: При наличии HTML-тегов в QR-коде разметка отключается.
+              - listitem [ref=e86]: Если текст QR-кода превышает 800 символов, он отправляется как отдельный файл
+              - listitem [ref=e87]: "Tetris QR-коды бывают двух типов: \"грибок\" и \"сердце\""
+              - listitem [ref=e88]: При использовании шаблона "На ваш телеграм" Если у пользователя нет аватарки и имени пользователя (username), бот отправит предупреждение. A Если отсутствует только аватарка, будет создан обычный QR-код из имени пользователя.
+              - listitem [ref=e89]: Все статические файлы локализованы и не загружаются повторно на серверы Telegram при каждом отправлении.
+            - heading "Стек технологий" [level=1] [ref=e90]
+            - heading "Бот разработан на Python 3.12 & aiogram 3 с использованием следующих библиотек:" [level=2] [ref=e91]:
+              - text: Бот разработан на
+              - link "Python 3.12" [ref=e92] [cursor=pointer]:
+                - /url: https://www.python.org/
+              - text: "&"
+              - link "aiogram 3" [ref=e93] [cursor=pointer]:
+                - /url: https://aiogram.dev/
+              - text: "с использованием следующих библиотек:"
+            - list [ref=e94]:
+              - listitem [ref=e95]:
+                - link "FastAPI" [ref=e96] [cursor=pointer]:
+                  - /url: https://fastapi.tiangolo.com/
+                - text: – для передачи данных о сохраненных параметрах в TMA
+              - listitem [ref=e97]:
+                - link "SQLite" [ref=e98] [cursor=pointer]:
+                  - /url: https://www.sqlite.org/
+                - text: – база данных
+              - listitem [ref=e99]:
+                - link "aiocryptopay" [ref=e100] [cursor=pointer]:
+                  - /url: https://pypi.org/project/aiocryptopay/
+                - text: /
+                - link "Telegram-wallet-pay" [ref=e101] [cursor=pointer]:
+                  - /url: https://pypi.org/project/telegram-wallet-pay/
+                - text: /
+                - link "Yookassa" [ref=e102] [cursor=pointer]:
+                  - /url: https://pypi.org/project/yookassa/
+                - text: – для принятия оплаты
+              - listitem [ref=e103]:
+                - link "Pillow" [ref=e104] [cursor=pointer]:
+                  - /url: https://pillow.readthedocs.io/
+                - text: – библиотека для работы с изображениями, помогает обрезать изображения, делать их контрастными и насыщенными
+              - listitem [ref=e105]:
+                - link "Pyzbar" [ref=e106] [cursor=pointer]:
+                  - /url: https://github.com/NaturalHistoryMuseum/pyzbar
+                - text: – для чтения QR-кодов со скринов и для проверки, что он сканируется
+              - listitem [ref=e107]:
+                - link "Segno" [ref=e108] [cursor=pointer]:
+                  - /url: https://segno.readthedocs.io/
+                - text: – для генерации QR-кодов
+              - listitem [ref=e109]:
+                - link "re" [ref=e110] [cursor=pointer]:
+                  - /url: https://docs.python.org/3/library/re.html
+                - text: – для работы со строками
+              - listitem [ref=e111]:
+                - link "pytz" [ref=e112] [cursor=pointer]:
+                  - /url: https://pypi.org/project/pytz/
+                - text: – для работы с временем
+              - listitem [ref=e113]:
+                - link "aiogram-dialog" [ref=e114] [cursor=pointer]:
+                  - /url: https://aiogram-dialog.readthedocs.io/en/stable/
+                - text: – для диалоговых окон
+              - listitem [ref=e115]:
+                - link "loguru" [ref=e116] [cursor=pointer]:
+                  - /url: https://loguru.readthedocs.io/
+                - text: – для логирования ошибок
+              - listitem [ref=e117]:
+                - link "qrtetris" [ref=e118] [cursor=pointer]:
+                  - /url: https://github.com/Firemoon777/qrtetris
+                - text: – для генерации Tetris QR
+            - heading "TMA написано на Vue с использованием следующих библиотек:" [level=2] [ref=e119]
+            - list [ref=e120]:
+              - listitem [ref=e121]:
+                - link "@tma.js SDK" [ref=e122] [cursor=pointer]:
+                  - /url: https://docs.telegram-mini-apps.com/
+                - text: – для инициализации TMA
+              - listitem [ref=e123]:
+                - link "Axios" [ref=e124] [cursor=pointer]:
+                  - /url: https://axios-http.com/
+                - text: – для запросов на вебхуки
+              - listitem [ref=e125]:
+                - link "iro.js" [ref=e126] [cursor=pointer]:
+                  - /url: https://iro.js.org/
+                - text: – для кольца с выбором цвета
+              - listitem [ref=e127]:
+                - link "eruda" [ref=e128] [cursor=pointer]:
+                  - /url: https://github.com/liriliri/eruda
+                - text: – для отладки на телефоне
+  - tablist [ref=e129]:
+    - generic:
+      - tab "~/index" [ref=e131] [cursor=pointer]:
+        - generic [ref=e132]:
+          - generic:
+            - img [ref=e133]
+            - generic [ref=e135]: ~/index
+      - tab "~/projects" [selected] [ref=e137] [cursor=pointer]:
+        - generic [ref=e138]:
+          - generic:
+            - img [ref=e139]
+            - generic [ref=e141]: ~/projects
+      - tab "~/skills" [ref=e143] [cursor=pointer]:
+        - generic [ref=e144]:
+          - generic:
+            - img [ref=e145]
+            - generic [ref=e147]: ~/skills

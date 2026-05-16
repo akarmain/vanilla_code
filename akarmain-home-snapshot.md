@@ -1,0 +1,48 @@
+- generic [ref=e5]:
+  - generic [ref=e9]:
+    - generic [ref=e10]:
+      - heading "Karmaev Andrey" [level=1] [ref=e12]
+      - generic [ref=e13]: Рython developer
+      - generic [ref=e14]:
+        - generic [ref=e15]: "{ \"Code\": [\"Python\", \"JavaScript\"], \"Языки\": [\"RU\", \"EN\"], \"Хобби\": [\"Монтаж видео\", \"Спорт\"], \"Время\": \"14:59:29 16.05 (UTC +3)\", \"Рабочее время\": \"8:00 - 20:00\", \"Почта\": \"andreykarmain@yandex.ru\", }"
+        - generic [ref=e16]: "{ json }"
+      - generic [ref=e17]:
+        - link "telegram" [ref=e18] [cursor=pointer]:
+          - /url: https://t.me/akarmain
+          - generic [ref=e19]:
+            - generic:
+              - img [ref=e20]:
+                - img [ref=e22]
+              - generic: telegram
+        - link "GitHub" [ref=e24] [cursor=pointer]:
+          - /url: https://github.com/akarmain
+          - generic [ref=e25]:
+            - generic:
+              - img [ref=e26]:
+                - img [ref=e28]
+              - generic: GitHub
+        - link "WakaTime" [ref=e30] [cursor=pointer]:
+          - /url: https://wakatime.com/@akarmain
+          - generic [ref=e31]:
+            - generic:
+              - img [ref=e32]:
+                - img "WakaTime" [ref=e34]
+              - generic: WakaTime
+    - img "Фоновое изображение" [ref=e37]
+  - tablist [ref=e38]:
+    - generic:
+      - tab "~/index" [selected] [ref=e40] [cursor=pointer]:
+        - generic [ref=e41]:
+          - generic:
+            - img [ref=e42]
+            - generic [ref=e44]: ~/index
+      - tab "~/projects" [ref=e46] [cursor=pointer]:
+        - generic [ref=e47]:
+          - generic:
+            - img [ref=e48]
+            - generic [ref=e50]: ~/projects
+      - tab "~/skills" [ref=e52] [cursor=pointer]:
+        - generic [ref=e53]:
+          - generic:
+            - img [ref=e54]
+            - generic [ref=e56]: ~/skills

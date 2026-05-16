@@ -1,0 +1,75 @@
+- generic [ref=e5]:
+  - generic [ref=e8]:
+    - banner [ref=e9]:
+      - generic [ref=e14]:
+        - generic: Projects
+    - main [ref=e15]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic:
+            - heading "QR bot" [level=2] [ref=e22]:
+              - generic:
+                - img [ref=e23]
+                - text: QR bot
+                - img [ref=e24]
+            - generic [ref=e27]:
+              - text: Бот для генерации / чтения QR-кодов с изображениями и готовыми шаблонами
+              - link "/start" [ref=e28] [cursor=pointer]:
+                - /url: https://t.me/Qr_code_lite_bot?start=web
+              - link "/web_site" [ref=e29] [cursor=pointer]:
+                - /url: https://qr-code-bot.ru/
+        - generic [ref=e30]:
+          - generic:
+            - heading "GPT gift" [level=2] [ref=e33]:
+              - generic:
+                - img [ref=e34]
+                - text: GPT gift
+                - img [ref=e35]
+            - generic [ref=e38]:
+              - text: Сайт, сайте вы создаете анкету с вопросами, отправляете её знакомым, и после прохождения опроса получаете список подарков, сформированный моделью ChatGPT-3.5
+              - link "/web_site" [ref=e39] [cursor=pointer]:
+                - /url: https://gpt-gift.akarmain.ru/
+        - generic [ref=e40]:
+          - generic:
+            - heading "Edu Helper AI" [level=2] [ref=e43]:
+              - generic:
+                - img [ref=e44]
+                - text: Edu Helper AI
+                - img [ref=e45]
+            - generic [ref=e48]:
+              - text: Бот для помощи в учебе, умеет отвечать на вопросы по коду, создавать конспекты и объяснять темы, понимая контекст диалога. Создает задачи с параметрами и тегами. + есть инструкция в формате web app
+              - link "/start" [ref=e49] [cursor=pointer]:
+                - /url: https://t.me/hahaton_mshp_bot
+        - generic [ref=e50]:
+          - generic:
+            - heading "Site" [level=2] [ref=e53]:
+              - generic:
+                - img [ref=e54]
+                - text: Site
+                - img [ref=e55]
+            - generic [ref=e58]: Сайт-визитка для разработчика, выполненный в стиле мобильного приложения
+        - generic [ref=e59]:
+          - generic:
+            - heading "Mini" [level=2] [ref=e62]:
+              - generic:
+                - img [ref=e63]
+                - text: Mini
+                - img [ref=e64]
+            - generic [ref=e67]: Это небольшие проекты которые я писал или давно или для изучения узких тем
+  - tablist [ref=e68]:
+    - generic:
+      - tab "~/index" [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]:
+          - generic:
+            - img [ref=e72]
+            - generic [ref=e74]: ~/index
+      - tab "~/projects" [selected] [ref=e76] [cursor=pointer]:
+        - generic [ref=e77]:
+          - generic:
+            - img [ref=e78]
+            - generic [ref=e80]: ~/projects
+      - tab "~/skills" [ref=e82] [cursor=pointer]:
+        - generic [ref=e83]:
+          - generic:
+            - img [ref=e84]
+            - generic [ref=e86]: ~/skills

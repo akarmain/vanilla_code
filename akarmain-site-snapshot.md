@@ -1,0 +1,49 @@
+- generic [ref=e5]:
+  - generic [ref=e8]:
+    - banner [ref=e9]:
+      - generic [ref=e11]:
+        - button [ref=e14] [cursor=pointer]
+        - generic [ref=e17]:
+          - generic: Site
+    - main [ref=e18]:
+      - generic [ref=e23]:
+        - generic:
+          - generic [ref=e24]:
+            - generic:
+              - heading "Этот сайт" [level=2] [ref=e25]:
+                - generic: Этот сайт
+              - heading "GitHub" [level=3] [ref=e26]:
+                - link "GitHub" [ref=e27] [cursor=pointer]:
+                  - /url: https://github.com/akarmain/site
+              - img "look_like" [ref=e33]
+          - generic [ref=e34]:
+            - text: Это сайт с открытым исходным кодом, созданный для представления моих проектов и представляющий моё портфолио.
+            - heading "Функционал:" [level=1] [ref=e35]
+            - list [ref=e36]:
+              - listitem [ref=e37]: Страница с моим описанием
+              - listitem [ref=e38]: Страница со все мои проекты и описанием каждого
+              - listitem [ref=e39]: Страница с навыками
+            - 'heading "Стек технологий: VUE & ionic" [level=1] [ref=e40]':
+              - text: "Стек технологий:"
+              - link "VUE" [ref=e41] [cursor=pointer]:
+                - /url: https://vuejs.org/
+              - text: "&"
+              - link "ionic" [ref=e42] [cursor=pointer]:
+                - /url: https://ionicframework.com/docs
+  - tablist [ref=e43]:
+    - generic:
+      - tab "~/index" [ref=e45] [cursor=pointer]:
+        - generic [ref=e46]:
+          - generic:
+            - img [ref=e47]
+            - generic [ref=e49]: ~/index
+      - tab "~/projects" [selected] [ref=e51] [cursor=pointer]:
+        - generic [ref=e52]:
+          - generic:
+            - img [ref=e53]
+            - generic [ref=e55]: ~/projects
+      - tab "~/skills" [ref=e57] [cursor=pointer]:
+        - generic [ref=e58]:
+          - generic:
+            - img [ref=e59]
+            - generic [ref=e61]: ~/skills
